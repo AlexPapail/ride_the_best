@@ -21,3 +21,5 @@
 
 # Fichiers générés par IDE JetBrains
 .idea/
+/config/secrets/dev/dev.decrypt.private.php
+/config/secrets/dev/dev.encrypt.public.php
