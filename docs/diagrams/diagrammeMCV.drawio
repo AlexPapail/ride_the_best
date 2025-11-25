@@ -28,7 +28,7 @@
         <mxCell id="3lpHoay79vZLy7NcKnJB-18" parent="3lpHoay79vZLy7NcKnJB-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ coment: text" vertex="1">
           <mxGeometry height="26" width="180" y="182" as="geometry" />
         </mxCell>
-        <mxCell id="3lpHoay79vZLy7NcKnJB-19" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Conditions" vertex="1">
+        <mxCell id="3lpHoay79vZLy7NcKnJB-19" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Condition" vertex="1">
           <mxGeometry height="182" width="200" x="1000" y="842" as="geometry" />
         </mxCell>
         <mxCell id="3lpHoay79vZLy7NcKnJB-20" parent="3lpHoay79vZLy7NcKnJB-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ windDirection: Enum::Cardinality" vertex="1">
