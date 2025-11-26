@@ -41,17 +41,7 @@ services:
         ports:
             - "1025:1025"
             - "8025:8025"
-    tailwind:
-        build:
-            context: .
-            dockerfile: docker/tailwind/Dockerfile
-        working_dir: /app
-        command: >
-            tailwindcss -i ./assets/styles/app.tailwind.css -o ./public/styles/app.css --watch
-        volumes:
-            - ./:/app
-        depends_on:
-            - symfony
+
 volumes:
 ###> doctrine/doctrine-bundle ###
   database_data:

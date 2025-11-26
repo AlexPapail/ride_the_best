@@ -2,8 +2,12 @@
 
 {% block title %}Welcome riders!{% endblock %}
 
+{% block stylesheets %}{{ parent() }}{% endblock %}
+
+{% block javascripts %}{{ parent() }}{% endblock %}
+
 {% block body %}
-    <h1>Hello riders! </h1>
-    <button class="bg-blue-600 text-white px-2 py-1 rounded">Test button</button>
+    <h1 class="bg-blue-600">Hello riders! </h1>
+
 
 {% endblock %}
