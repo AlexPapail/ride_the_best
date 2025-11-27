@@ -1,6 +1,61 @@
-/* css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+main{
+    padding-top: 65px;
 
+}
+body{
+    background: #ECF8F6;
+}
 
+/*---------------------------------- Title -------------------------*/
+.rtb-title-logo{
+    font-family: 'Pacifico', 'Shrikhand', cursive, sans-serif;
+    font-size: 120%;
+    color: #18534F;
+    line-height: 1.1;
+}
+.rtb-u-title-logo{
+    font-family: 'Pacifico', 'Shrikhand', cursive, sans-serif;
+    font-size: 75%;
+    color: #226D68;
+    line-height: 1;
+}
+.rtb-title-one{
+    font-weight: bold;
+}
+
+/*---------------------------------- Text color -------------------------*/
+.rtb-text-white{
+    color: #FFFFFF;
+}
+/*---------------------------------- Background color -------------------------*/
+.rtb-bg-yellow{
+    background-color: #FEEAA1;
+}
+.rtb-bg-grey{
+    background-color: #494e51;
+}
+.rtb-profilPicture{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+/*------------------------------------- Boutons ---------------------------------*/
+.rtb-burger-btn{
+    font-size: 100%;
+    background-color: transparent;
+    border: none;
+
+}
+.rtb-btn-primary{
+    border-radius: 5px;
+    border: 1px solid #D6955B;
+    background-color: #D6955B;
+    color: #fff;
+}
+.rtb-btn-secondary{
+    border-radius: 5px;
+    border: 1px solid #D6955B;
+    background-color: transparent;
+    color: #D6955B;
+}

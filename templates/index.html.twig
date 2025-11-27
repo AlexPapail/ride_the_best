@@ -7,7 +7,22 @@
 {% block javascripts %}{{ parent() }}{% endblock %}
 
 {% block body %}
-    <h1 class="bg-blue-600">Hello riders! </h1>
+
+    <div class="d-flex align-items-center justify-content-center gap-2">
+        <button class="rtb-btn-secondary d-flex align-items-center">
+            <div class=" me-1 d-flex justify-content-center align-items-center">
+                <i class="bi bi-funnel"></i>
+            </div>
+            <div>Filtres</div>
+        </button>
+        <button class="rtb-btn-primary d-flex align-items-center">
+            <div class="me-1 d-flex justify-content-center align-items-center">
+                <i class="bi bi-plus-lg"></i>
+            </div>
+            <div>Nouvelle session</div>
+        </button>
+    </div>
+
 
 
 {% endblock %}

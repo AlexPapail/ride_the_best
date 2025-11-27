@@ -5,7 +5,7 @@ Encore
     .setPublicPath('/build')
     .addEntry('app', './assets/app.js')
     .addStyleEntry('styles', './assets/styles/app.css')
-    .enablePostCssLoader()
+
     .splitEntryChunks()
     .enableSingleRuntimeChunk()
     .cleanupOutputBeforeBuild()
