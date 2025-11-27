@@ -1,9 +1,14 @@
 <nav class="navbar fixed-top p-0 rtb-bg-yellow">
     <div class="container-fluid">
 
-        <a class="navbar-brand d-flex flex-column justify-content-between" href="#"><p
-                class="align-text-bottom rtb-title-logo m-0">Ride the Best</p>
-            <p class="rtb-u-title-logo m-0 text-end">F*** The Rest</p></a>
+        <a class="navbar-brand d-flex flex-column justify-content-between" href="#">
+            <div class="d-flex align-items-stretch">
+                <img src="{{ asset('images/logo/LogoRTB.svg') }}" alt="image du logo" class="rtb-logo">
+                <div class="d-flex flex-column justify-content-center">
+                    <p class="align-text-bottom rtb-title-logo m-0">Ride the Best</p>
+                    <p class="rtb-u-title-logo m-0 text-start">F*** the Rest</p>
+                </div>
+            </div></a>
         <button class="rtb-burger-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
                 aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

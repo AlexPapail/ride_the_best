@@ -1,0 +1,26 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond circulaire style badge vintage -->
+  <circle cx="100" cy="100" r="95" fill="#226D68"/>
+  <circle cx="100" cy="100" r="88" fill="#FEEAA1"/>
+  <circle cx="100" cy="100" r="82" fill="#18534F"/>
+  
+  <!-- Vagues centrées, forme conservée -->
+  <path d="M 35 90 Q 51.25 75, 67.5 90 T 100 90 T 132.5 90 T 165 90"
+        fill="none" stroke="#D6955B" stroke-width="7" opacity="0.4"/>
+  <path d="M 35 100 Q 51.25 85, 67.5 100 T 100 100 T 132.5 100 T 165 100"
+        fill="none" stroke="#D6955B" stroke-width="7" opacity="0.4"/>
+  <path d="M 35 110 Q 51.25 95, 67.5 110 T 100 110 T 132.5 110 T 165 110"
+        fill="none" stroke="#D6955B" stroke-width="7" opacity="0.4"/>
+  
+  <!-- Planche de surf centrale stylisée -->
+  <ellipse cx="100" cy="100" rx="12" ry="50" fill="#ECF8F6" transform="rotate(25 100 100)"/>
+  <ellipse cx="100" cy="100" rx="10" ry="48" fill="#ECF8F6" transform="rotate(25 100 100)"/>
+  
+  <!-- Bandes décoratives sur la planche (style 70s) -->
+
+  <rect x="99.5" y="50" width="1" height="100" fill="#D6955B" transform="rotate(25 100 100)"/>
+
+  
+  <!-- Lettres de cardinalité style vintage -->
+
+</svg>

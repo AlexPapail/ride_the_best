@@ -5,17 +5,23 @@ main{
 body{
     background: #ECF8F6;
 }
+/*--------------------------------- Images --------------------------*/
+
+.rtb-logo{
+    width: 35px;
+    margin-right: 2vw;
+}
 
 /*---------------------------------- Title -------------------------*/
 .rtb-title-logo{
     font-family: 'Pacifico', 'Shrikhand', cursive, sans-serif;
-    font-size: 120%;
+    font-size: 100%;
     color: #18534F;
-    line-height: 1.1;
+    line-height: 0.7;
 }
 .rtb-u-title-logo{
-    font-family: 'Pacifico', 'Shrikhand', cursive, sans-serif;
-    font-size: 75%;
+    font-family: 'Shrikhand', cursive, sans-serif;
+    font-size: 55%;
     color: #226D68;
     line-height: 1;
 }
@@ -42,7 +48,7 @@ body{
 
 /*------------------------------------- Boutons ---------------------------------*/
 .rtb-burger-btn{
-    font-size: 100%;
+    font-size: 120%;
     background-color: transparent;
     border: none;
 
@@ -52,6 +58,7 @@ body{
     border: 1px solid #D6955B;
     background-color: #D6955B;
     color: #fff;
+
 }
 .rtb-btn-secondary{
     border-radius: 5px;
