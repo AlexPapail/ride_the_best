@@ -11,6 +11,11 @@ body{
     width: 35px;
     margin-right: 2vw;
 }
+.rtb-profilPicture{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
 
 /*---------------------------------- Title -------------------------*/
 .rtb-title-logo{
@@ -33,18 +38,39 @@ body{
 .rtb-text-white{
     color: #FFFFFF;
 }
+.rtb-text-green-dark{
+    color: #18534F;
+}
+.rtb-text-green{
+    color: #226D68;
+}
+.rtb-text-green-light{
+    color: #ECF8F6;
+}
+.rtb-text-yellow{
+    color: #FEEAA1;
+}
+.rtb-text-orange{
+    color: #D6955B;
+}
 /*---------------------------------- Background color -------------------------*/
+.rtb-bg-green-dark{
+    background-color: #18534F;
+}
+.rtb-bg-green{
+    background-color: #226D68;
+}
+.rtb-bg-green-light{
+    background-color: #ECF8F6;
+}
 .rtb-bg-yellow{
     background-color: #FEEAA1;
 }
-.rtb-bg-grey{
-    background-color: #226D68;
+.rtb-bg-orange{
+    background-color: #D6955B;
 }
-.rtb-profilPicture{
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-}
+
+
 
 /*------------------------------------- Boutons ---------------------------------*/
 .rtb-burger-btn{
