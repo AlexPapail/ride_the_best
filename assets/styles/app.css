@@ -38,7 +38,7 @@ body{
     background-color: #FEEAA1;
 }
 .rtb-bg-grey{
-    background-color: #494e51;
+    background-color: #226D68;
 }
 .rtb-profilPicture{
     border-radius: 50%;
@@ -55,14 +55,14 @@ body{
 }
 .rtb-btn-primary{
     border-radius: 5px;
-    border: 1px solid #D6955B;
-    background-color: #D6955B;
+    border: 1px solid #18534F;
+    background-color: #18534F;
     color: #fff;
 
 }
 .rtb-btn-secondary{
     border-radius: 5px;
-    border: 1px solid #D6955B;
+    border: 1px solid #18534F;
     background-color: transparent;
-    color: #D6955B;
+    color: #18534F;
 }
